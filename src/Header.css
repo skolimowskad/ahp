@@ -1,0 +1,14 @@
+.header {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background: linear-gradient(rgba(130, 134, 217), rgba(70,84,166));
+}
+
+.tytul {
+    color: rgba(255,255,255);
+    font-family: Arial;
+    text-shadow: 1px 1px 2px grey;
+    font-size: 50px;
+}

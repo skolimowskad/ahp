@@ -1,0 +1,39 @@
+.kontenerSlidery {
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    margin: 40px;
+}
+.wiersz{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-center: center;
+}
+.slider {
+    width:450px;
+    margin: auto;
+    justify-content:center;
+}
+.sliderTrack {
+    top:8px;
+    height: 4px;
+    background: rgba(208,208,208);
+}
+.sliderTrack.sliderTrack-0 {
+    background: rgba(247,188,80);
+}
+.sliderThumb {
+    cursor: pointer;
+    background: rgba(247,188,80);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    outline: none;
+  }
+.sliderThumb:hover {
+    box-shadow: 0 0 0 8px rgb(247,188,80,0.2)
+}
+.sliderText {
+    color: rgba(70,84,166);
+}
